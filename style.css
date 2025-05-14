@@ -23,6 +23,7 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+  padding: 0;
 }
 
 .container {
@@ -41,12 +42,18 @@ a {
   color: inherit;
 }
 
+p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
 button {
   color: #e5e7eb;
   background-color: #3882f6;
   padding: 0.5em 1.5em;
   border-radius: 0.5em;
   border: none;
+  margin: 0 auto;
 }
 
 .header {
@@ -119,11 +126,6 @@ button {
   margin-bottom: 0;
 }
 
-.hero__headline p {
-  font-size: 1.125rem;
-  color: #e5e7eb;
-}
-
 .hero__image {
   flex: 1;
 }
@@ -152,6 +154,10 @@ button {
   margin-bottom: 4em;
 }
 
+.content p {
+  color: #1f2937;
+}
+
 .quotes {
   background-color: #e5e7eb;
 }
@@ -168,4 +174,48 @@ button {
 
 .author {
   text-align: end;
+}
+
+.cta__card {
+  margin: 3em 0;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+  padding: 1.5em 5em;
+}
+
+.cta__card button {
+  border: 1px solid white;
+}
+
+.cta__section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta__button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cta__title {
+  font-weight: 900;
+}
+
+.cta__subtitle {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+footer {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
 }
