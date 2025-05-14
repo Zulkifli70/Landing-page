@@ -8,7 +8,6 @@ body {
   margin: 0;
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
-  line-height: 1.5;
 }
 
 img {
@@ -40,6 +39,14 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  border: none;
 }
 
 .header {
@@ -89,7 +96,34 @@ a {
   opacity: 0.8;
 }
 
-/* .hero {
+.hero {
   background-color: #1f2937;
   color: white;
-} */
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3em 0;
+}
+
+.hero__headline {
+  flex: 1;
+}
+
+.hero__headline h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+.hero__headline p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
+.hero__image {
+  flex: 1;
+}
